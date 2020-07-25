@@ -1,0 +1,13 @@
+div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 1.5s ease-in .2s 5 alternate both;
+}
+
+@keyframes bounce {
+  0% {left: 15%; bottom: 75%;}
+  100% {left: 15%; bottom: 0%;}
+}
